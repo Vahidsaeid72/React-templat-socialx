@@ -1,0 +1,22 @@
+.featur-item {
+  display: flex;
+  /* margin: 10px 0; */
+  align-items: center;
+}
+.featur-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  position: relative;
+}
+.featur-item .icon #center-icon {
+  position: absolute;
+  top: 15px;
+}
+.item-content h2 {
+  margin-bottom: 5px;
+  color: rgb(93, 168, 218);
+  font-weight: normal;
+  margin-top: 10px;
+}
