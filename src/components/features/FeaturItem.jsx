@@ -3,9 +3,9 @@ import { FiHexagon } from "react-icons/fi";
 import './featurItem.css';
 
 
-const FeaturItem = ({ icon, title, text }) => {
+const FeaturItem = ({ icon, title, text, data_aos }) => {
     return (
-        <div className="featur-item">
+        <div className="featur-item" data-aos={data_aos}>
             <div className="icon">
                 <FiHexagon size={50} color="orangered" />
                 <span id="center-icon">
