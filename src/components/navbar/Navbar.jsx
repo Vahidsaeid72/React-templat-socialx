@@ -7,7 +7,7 @@ import logo from "./../../assets/logo.png"
 import { useState } from 'react';
 
 const Navbar = () => {
-    const [showIcon, setShowIcon] = useState(false);
+    const [showIcon, setShowIcon] = useState(true);
 
     return (
         <nav className="navbar container">
